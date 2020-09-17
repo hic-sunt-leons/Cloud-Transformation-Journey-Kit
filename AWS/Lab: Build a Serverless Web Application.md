@@ -5,6 +5,10 @@ Helpful link if needed not really needed. [create-iam-users](https://docs.aws.am
 In order to clone repo that you create, you need to generate a username and password in order clone the repo to your local machine.
 [Setup for HTTPS users using Git credentials](https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-gc.html?icmpid=docs_acc_console_connect_np)
 
+The AWS CLI need to be setup already to your IAM User that you created. The CLI will be used to copy static files from public accessible AWS S3 service to your local GIT repo. Refer to this for assistance: [cli-configure-files](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+
+To get the creditals to setup your CLI, go to the IAM service and select the IAM User and select the "Security credentials" tab.  In the Access key section, click "Create access key" and ue the generated keys for setting up the AWS CLI to your AWS account.
+
 [Lab: build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
 
 
